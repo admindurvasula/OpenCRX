@@ -9,7 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        bat 'ant -f build.xml'
+        bat 'ant -all'
       }
     }
 
